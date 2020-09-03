@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:id="@+id/main_content" android:fitsSystemWindows="true" android:layout_width="match_parent" android:layout_height="match_parent">
+    <com.google.android.material.appbar.AppBarLayout android:theme="@style/AppTheme.AppBarOverlay" android:id="@+id/appbar" android:paddingTop="@dimen/appbar_padding_top" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <androidx.appcompat.widget.Toolbar android:id="@+id/toolbar" android:background="?attr/colorPrimary" android:layout_width="match_parent" android:layout_height="?attr/actionBarSize" android:layout_weight="1" app:layout_scrollFlags="5" app:popupTheme="@style/AppTheme.PopupOverlay" app:title="@string/button1"/>
+        <com.google.android.material.tabs.TabLayout android:id="@+id/tabs" android:layout_width="match_parent" android:layout_height="wrap_content" app:tabMode="0">
+            <com.google.android.material.tabs.TabItem android:id="@+id/tabItem" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/tab_text_1_auto"/>
+            <com.google.android.material.tabs.TabItem android:id="@+id/tabItem2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/tab_text_2_auto"/>
+            <com.google.android.material.tabs.TabItem android:id="@+id/tabItem3" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/tab_text_3_auto"/>
+            <com.google.android.material.tabs.TabItem android:id="@+id/tabItem4" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/tab_text_4_auto"/>
+            <com.google.android.material.tabs.TabItem android:id="@+id/tabItem5" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/tab_text_5_auto"/>
+            <com.google.android.material.tabs.TabItem android:id="@+id/tabItem6" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/tab_text_6_auto"/>
+            <com.google.android.material.tabs.TabItem android:id="@+id/tabItem7" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/tab_text_7_auto"/>
+            <com.google.android.material.tabs.TabItem android:id="@+id/tabItem8" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/tab_text_8_auto"/>
+            <com.google.android.material.tabs.TabItem android:id="@+id/tabItem9" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/tab_text_9_auto"/>
+            <com.google.android.material.tabs.TabItem android:id="@+id/tabItem10" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/tab_text_10_auto" app:tabMode="0"/>
+            <com.google.android.material.tabs.TabItem android:id="@+id/tabItem11" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/tab_text_11_auto"/>
+            <com.google.android.material.tabs.TabItem android:id="@+id/tabItem12" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/tab_text_12_auto"/>
+            <com.google.android.material.tabs.TabItem android:id="@+id/tabItem13" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/tab_text_13_auto"/>
+            <com.google.android.material.tabs.TabItem android:id="@+id/tabItem14" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/tab_text_14_auto"/>
+            <com.google.android.material.tabs.TabItem android:id="@+id/tabItem15" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/tab_text_15_auto"/>
+            <com.google.android.material.tabs.TabItem android:id="@+id/tabItem16" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/tab_text_16_auto"/>
+        </com.google.android.material.tabs.TabLayout>
+    </com.google.android.material.appbar.AppBarLayout>
+    <androidx.viewpager.widget.ViewPager android:id="@+id/container" android:layout_width="match_parent" android:layout_height="match_parent" app:layout_behavior="@string/appbar_scrolling_view_behavior"/>
+</androidx.coordinatorlayout.widget.CoordinatorLayout>
